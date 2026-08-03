@@ -1,0 +1,295 @@
+{
+  "stats": {
+    "farmers": 12840,
+    "posts": 3642,
+    "crops": 48,
+    "districts": 64
+  },
+  "farmers": [
+    {
+      "id": "farmer-001",
+      "name": "মো. আব্দুল করিম",
+      "phone": "০১৭১২-৩৪৫৬৭৮",
+      "district": "রংপুর",
+      "upazila": "মিঠাপুকুর",
+      "address": "মিঠাপুকুর, রংপুর",
+      "avatar": "assets/images/farmer-1.svg",
+      "cover": "assets/images/profile-cover.svg",
+      "verified": true,
+      "bio": "আমি ১৫ বছর ধরে আলু, ধান ও ভুট্টা চাষ করছি। সরাসরি ক্রেতার কাছে ন্যায্য দামে ফসল বিক্রি করতে আগ্রহী।",
+      "crops": [
+        "আলু",
+        "ধান",
+        "ভুট্টা"
+      ],
+      "rating": 4.9
+    },
+    {
+      "id": "farmer-002",
+      "name": "রহিমা বেগম",
+      "phone": "০১৮২১-৪৫৬৭৮৯",
+      "district": "যশোর",
+      "upazila": "ঝিকরগাছা",
+      "address": "ঝিকরগাছা, যশোর",
+      "avatar": "assets/images/farmer-2.svg",
+      "cover": "assets/images/profile-cover.svg",
+      "verified": true,
+      "bio": "নিজস্ব জমিতে নিরাপদ সবজি ও টমেটো উৎপাদন করি।",
+      "crops": [
+        "টমেটো",
+        "বেগুন",
+        "মরিচ"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "farmer-003",
+      "name": "শফিকুল ইসলাম",
+      "phone": "০১৯১১-৯৮৭৬৫৪",
+      "district": "রাজশাহী",
+      "upazila": "বাঘা",
+      "address": "বাঘা, রাজশাহী",
+      "avatar": "assets/images/farmer-3.svg",
+      "cover": "assets/images/profile-cover.svg",
+      "verified": true,
+      "bio": "রাজশাহীর মৌসুমি আম ও সবজি সরবরাহ করি।",
+      "crops": [
+        "আম",
+        "পেঁয়াজ",
+        "গম"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "farmer-004",
+      "name": "মোছা. নাজমা খাতুন",
+      "phone": "০১৬৩৩-১১২২৩৩",
+      "district": "কুমিল্লা",
+      "upazila": "চান্দিনা",
+      "address": "চান্দিনা, কুমিল্লা",
+      "avatar": "assets/images/farmer-4.svg",
+      "cover": "assets/images/profile-cover.svg",
+      "verified": false,
+      "bio": "ধান ও সরিষা চাষ করি। স্থানীয় ক্রেতা ও পাইকারদের সঙ্গে সরাসরি যোগাযোগ করতে চাই।",
+      "crops": [
+        "ধান",
+        "সরিষা"
+      ],
+      "rating": 4.6
+    }
+  ],
+  "posts": [
+    {
+      "id": "post-001",
+      "farmerId": "farmer-001",
+      "crop": "আলু",
+      "variety": "ডায়মন্ড আলু",
+      "quantity": "৫,০০০ কেজি",
+      "quantityKg": 5000,
+      "price": 32,
+      "unit": "কেজি",
+      "district": "রংপুর",
+      "division": "রংপুর",
+      "upazila": "মিঠাপুকুর",
+      "date": "আজ, সকাল ৯:৩০",
+      "harvest": "১ আগস্ট ২০২৬",
+      "organic": false,
+      "available": true,
+      "image": "assets/images/crop-potato.svg",
+      "description": "আজ সকালে ক্ষেত থেকে তোলা তাজা ডায়মন্ড আলু। বড় আকার, পরিষ্কার ও বাছাই করা। পাইকারি ক্রয়ের জন্য যোগাযোগ করুন।",
+      "likes": 128,
+      "comments": 22,
+      "views": 942
+    },
+    {
+      "id": "post-002",
+      "farmerId": "farmer-002",
+      "crop": "টমেটো",
+      "variety": "বারি টমেটো-১৪",
+      "quantity": "১,২০০ কেজি",
+      "quantityKg": 1200,
+      "price": 45,
+      "unit": "কেজি",
+      "district": "যশোর",
+      "division": "খুলনা",
+      "upazila": "ঝিকরগাছা",
+      "date": "আজ, সকাল ৮:১০",
+      "harvest": "৩১ জুলাই ২০২৬",
+      "organic": true,
+      "available": true,
+      "image": "assets/images/crop-tomato.svg",
+      "description": "নিরাপদ পদ্ধতিতে উৎপাদিত পাকা টমেটো। হোটেল, রেস্টুরেন্ট ও পাইকারদের জন্য বিশেষ দর।",
+      "likes": 96,
+      "comments": 14,
+      "views": 701
+    },
+    {
+      "id": "post-003",
+      "farmerId": "farmer-003",
+      "crop": "আম",
+      "variety": "ফজলি আম",
+      "quantity": "২,৮০০ কেজি",
+      "quantityKg": 2800,
+      "price": 78,
+      "unit": "কেজি",
+      "district": "রাজশাহী",
+      "division": "রাজশাহী",
+      "upazila": "বাঘা",
+      "date": "গতকাল, বিকেল ৫:২০",
+      "harvest": "৩০ জুলাই ২০২৬",
+      "organic": false,
+      "available": true,
+      "image": "assets/images/crop-mango.svg",
+      "description": "বাগান থেকে সংগ্রহ করা মিষ্টি ও পরিপক্ব ফজলি আম। বড় অর্ডারে পরিবহন সহযোগিতা দেওয়া হবে।",
+      "likes": 214,
+      "comments": 37,
+      "views": 1650
+    },
+    {
+      "id": "post-004",
+      "farmerId": "farmer-004",
+      "crop": "ধান",
+      "variety": "ব্রি ধান-২৮",
+      "quantity": "৮,০০০ কেজি",
+      "quantityKg": 8000,
+      "price": 38,
+      "unit": "কেজি",
+      "district": "কুমিল্লা",
+      "division": "চট্টগ্রাম",
+      "upazila": "চান্দিনা",
+      "date": "২ দিন আগে",
+      "harvest": "২৮ জুলাই ২০২৬",
+      "organic": false,
+      "available": true,
+      "image": "assets/images/crop-rice.svg",
+      "description": "শুকনো ও পরিষ্কার ব্রি ধান-২৮। আড়তদার ও চালকল মালিকদের জন্য সরাসরি বিক্রয়।",
+      "likes": 84,
+      "comments": 11,
+      "views": 623
+    },
+    {
+      "id": "post-005",
+      "farmerId": "farmer-001",
+      "crop": "ভুট্টা",
+      "variety": "হাইব্রিড ভুট্টা",
+      "quantity": "৩,৫০০ কেজি",
+      "quantityKg": 3500,
+      "price": 29,
+      "unit": "কেজি",
+      "district": "রংপুর",
+      "division": "রংপুর",
+      "upazila": "মিঠাপুকুর",
+      "date": "৩ দিন আগে",
+      "harvest": "২৭ জুলাই ২০২৬",
+      "organic": false,
+      "available": true,
+      "image": "assets/images/crop-corn.svg",
+      "description": "শুকনো দানাদার ভুট্টা। পোল্ট্রি ফিড ও বড় ক্রেতাদের জন্য উপযোগী।",
+      "likes": 76,
+      "comments": 9,
+      "views": 518
+    },
+    {
+      "id": "post-006",
+      "farmerId": "farmer-003",
+      "crop": "পেঁয়াজ",
+      "variety": "দেশি পেঁয়াজ",
+      "quantity": "১,৮০০ কেজি",
+      "quantityKg": 1800,
+      "price": 56,
+      "unit": "কেজি",
+      "district": "রাজশাহী",
+      "division": "রাজশাহী",
+      "upazila": "বাঘা",
+      "date": "৪ দিন আগে",
+      "harvest": "২৫ জুলাই ২০২৬",
+      "organic": true,
+      "available": false,
+      "image": "assets/images/crop-onion.svg",
+      "description": "ভালোভাবে শুকানো দেশি পেঁয়াজ। এই চালানটি বুকিং সম্পন্ন হয়েছে।",
+      "likes": 62,
+      "comments": 7,
+      "views": 487
+    }
+  ],
+  "market": [
+    {
+      "crop": "ধান",
+      "price": "৩৬–৪০ টাকা",
+      "trend": "উর্ধ্বমুখী"
+    },
+    {
+      "crop": "আলু",
+      "price": "৩০–৩৪ টাকা",
+      "trend": "স্থিতিশীল"
+    },
+    {
+      "crop": "টমেটো",
+      "price": "৪২–৫০ টাকা",
+      "trend": "উর্ধ্বমুখী"
+    },
+    {
+      "crop": "পেঁয়াজ",
+      "price": "৫৪–৬০ টাকা",
+      "trend": "নিম্নমুখী"
+    }
+  ],
+  "regions": [
+    {
+      "id": "rangpur",
+      "name": "রংপুর অঞ্চল",
+      "top": "আলু, ধান, ভুট্টা",
+      "production": 92,
+      "farmers": 2450
+    },
+    {
+      "id": "rajshahi",
+      "name": "রাজশাহী অঞ্চল",
+      "top": "আম, গম, পেঁয়াজ",
+      "production": 88,
+      "farmers": 2190
+    },
+    {
+      "id": "dhaka",
+      "name": "ঢাকা অঞ্চল",
+      "top": "ধান, সবজি, সরিষা",
+      "production": 70,
+      "farmers": 1800
+    },
+    {
+      "id": "khulna",
+      "name": "খুলনা অঞ্চল",
+      "top": "পাট, টমেটো, তরমুজ",
+      "production": 78,
+      "farmers": 1660
+    },
+    {
+      "id": "chattogram",
+      "name": "চট্টগ্রাম অঞ্চল",
+      "top": "ধান, সবজি, ফল",
+      "production": 64,
+      "farmers": 1540
+    },
+    {
+      "id": "sylhet",
+      "name": "সিলেট অঞ্চল",
+      "top": "চা, ধান, লেবু",
+      "production": 58,
+      "farmers": 1180
+    },
+    {
+      "id": "barishal",
+      "name": "বরিশাল অঞ্চল",
+      "top": "ধান, পেয়ারা, নারকেল",
+      "production": 73,
+      "farmers": 1260
+    },
+    {
+      "id": "mymensingh",
+      "name": "ময়মনসিংহ অঞ্চল",
+      "top": "ধান, মাছ, সবজি",
+      "production": 81,
+      "farmers": 1760
+    }
+  ]
+}
